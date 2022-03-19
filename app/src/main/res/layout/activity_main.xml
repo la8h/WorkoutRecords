@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="148dp"
+                android:text="Track your progress \n\n\nEnter your data"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pic"
+                />
+        </LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/inputFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your first name..." />
+
+    <EditText
+        android:id="@+id/inputLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Enter your last name..."
+         />
+
+    <EditText
+        android:id="@+id/inputDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:hint="Enter distance..."
+
+        />
+
+        <Button
+            android:id="@+id/btnUploadData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_data"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:background="@color/purple_200"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="horizontal">
+
+
+
+    <Button
+        android:id="@+id/btnReadData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/retrieve_data"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+         />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="UPDATE"
+             />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="DELETE"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+             />
+
+        </LinearLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="50dp"
+
+            android:layout_marginBottom="148dp"
+            android:text="Check your weight"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnToSecondActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            android:text="@string/check_your_weight"
+            />
+
+    <TextView
+        android:id="@+id/textViewResultTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="148dp"
+        android:text=""
+        android:textSize="24sp"
+        android:textStyle="bold"
+         />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+         />
+
+
+    </LinearLayout>
+</ScrollView>

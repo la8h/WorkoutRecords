@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weight Loss Tracker</string>
+    <string name="save_data">Add</string>
+    <string name="retrieve_data">Retrieve</string>
+    <string name="check_yor_weight">Check yor weight</string>
+    <string name="check_your_weight">Check your weight</string>
+</resources>
+
